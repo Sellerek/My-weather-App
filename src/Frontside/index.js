@@ -8,7 +8,6 @@ class FrontSide extends Component {
 
   updateWeather = () => {
     getWeatherForLocation(this.props.currentCity).then(weather => {
-      console.dir(this.props);
       this.setState({ currentWeather: weather.currently });
     });
   };
