@@ -1,0 +1,49 @@
+[
+  {
+   "title":"Warsaw, PL",
+   "location_type":"City",
+   "woeid":523920,
+   "latt_long":"52.22977, 21.01178"
+  },
+  {"title":"Bialystok, PL",
+   "location_type":"City",
+   "woeid":224931516,
+   "latt_long":"53.13333, 23.16433"
+  },
+  {"title":"Kolno, PL",
+    "location_type":"City",
+    "woeid":24548239,
+    "latt_long":"53.41148, 21.92905"
+   },
+   {"title":"Cork, IRL",
+    "location_type":"City",
+    "woeid":2345252,
+    "latt_long":"51.89797, -8.47061"
+   },
+   {"title":"Trogir, CRO",
+    "location_type":"City",
+    "woeid":15022391,
+    "latt_long":"43.5125, 16.25167"
+   },
+   {"title":"New York, USA",
+    "location_type":"City",
+    "woeid":2459115,
+    "latt_long":"40.71427, -74.00597"
+   },
+   {"title":"Oslo, NOR",
+    "location_type":"City",
+    "woeid":2346395,
+    "latt_long":"59.91273, 10.74609"
+   },
+    {
+    "title": "Amsterdam, NL",
+    "location_type":"City",
+    "woeid":727232,
+    "latt_long":"52.37403, 4.88969"
+   },
+   {"title":"Sydney, AUS",
+    "location_type":"City",
+    "woeid":1105779,
+    "latt_long":"-33.86785, 151.20732"
+   }
+]
