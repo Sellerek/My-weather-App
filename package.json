@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
-    "prod": "webpack --config webpack.config.prod.js"
+    "prod": "webpack --config webpack.config.prod.js",
+    "start": "react-scripts start",
+   "predeploy": "yarn run build",
+   "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -29,6 +32,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "gh-pages": "^2.0.1",
     "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -37,11 +41,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sellerek/return-things.git"
+    "url": "git+https://github.com/Sellerek/My_simple_weather_app.git"
   },
   "bugs": {
-    "url": "https://github.com/Sellerek/return-things/issues"
+    "url": "https://github.com/Sellerek/My_simple_weather_app/issues"
   },
-  "homepage": "https://github.com/Sellerek/return-things#readme",
+  "homepage": "https://github.com/Sellerek/My_simple_weather_app.git",
   "description": ""
 }
