@@ -6,8 +6,8 @@
     "dev": "webpack-dev-server",
     "prod": "webpack --config webpack.config.prod.js",
     "start": "react-scripts start",
-   "predeploy": "yarn run build",
-   "deploy": "gh-pages -d build"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -46,6 +46,6 @@
   "bugs": {
     "url": "https://github.com/Sellerek/My_simple_weather_app/issues"
   },
-  "homepage": "https://github.com/Sellerek/My_simple_weather_app.git",
+  "homepage": "https://github.com/Sellerek/My_simple_weather_app",
   "description": ""
 }
