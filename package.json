@@ -7,7 +7,10 @@
     "prod": "webpack --config webpack.config.prod.js",
     "start": "react-scripts start",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+   "test": "react-scripts test",
+   "eject": "react-scripts eject"
   },
   "author": "",
   "license": "ISC",
