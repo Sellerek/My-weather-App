@@ -9,8 +9,8 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-   "test": "react-scripts test",
-   "eject": "react-scripts eject"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "",
   "license": "ISC",
@@ -36,11 +36,13 @@
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "gh-pages": "^2.0.1",
+    "lodash": "^4.17.20",
     "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scroll": "^1.7.12"
+    "react-scroll": "^1.7.12",
+    "yargs-parser": "^20.2.4"
   },
   "repository": {
     "type": "git",
